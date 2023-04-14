@@ -10,7 +10,7 @@ import numpy as np
 import pickle
 import pandas as pd
 
-model = pickle.load(open(r"C:\Users\SmartBridge-PC\Downloads\Thyroid\Training\thyroid_1_model.pkl", 'rb'))
+model = pickle.load(open(r"thyroid_1_model.pkl", 'rb'))
 le = pickle.load(open("label_encoder.pkl", 'rb'))
 
 
